@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+.total-content {
+	margin: 0 auto;
+	max-width: 817px;
+	color: #424551;
+	margin-bottom: 50px;
+}
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 92.13px;
+}
+img {
+	max-width: 100%;
+	margin-bottom: 58.44px;
+}
+p.text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 23.77px;
+}
+div.middle {
+	line-height: 1.6;
+	margin-bottom: 47.55px;
+}
+.middle .midlle-first {
+	margin-bottom: 25.6px;
+}
+.statement {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	padding-left: 58px;
+	padding-right: 7px;
+	padding-bottom: 1.13px;
+	margin-bottom: 46.42px;
+}
+.text.list p {
+	line-height: 1.6;
+	margin-bottom: 23.77px;
+}
+.text.list ul {
+	line-height: 1.6;
+	margin-bottom: 23.77px;
+}
+.conclusion {
+	line-height: 1.6;
+}
+/*------------Вторая часть ДЗ----------*/
+div.second-part {
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 900px;
+	margin: 0 auto;
+}
+h2 {
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: midnightblue;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+.second-part .part-one {
+	text-align: justify;
+	text-indent: 10px;
+	max-width: 300px;
+	max-height: 100px;
+	overflow: auto;
+	background-color: deepskyblue;
+	padding: 7px;
+	margin-bottom: 15px;
+}
+/*------------!!Так делать нельзя!! Костыль тупости *LoL*--------*/
+.part-two {
+	display: inline;
+	background-color: rgba(0, 255, 255, 0.34);
+	text-decoration: line-through;
+}
+.forbidden-trick span {
+	display: block;
+	background-color: coral;
+	padding: 10px 15px 5px;
+	border: 3px solid black;
+	margin-bottom: 15px;
+}
+/*----------------------------------------*/
+.part-three img {
+	display: inline-block;
+	max-width: 100%;
+	padding: 7px;
+	outline: 4px dotted black;
+	margin-bottom: 20px;
+}
+.part-four {
+	border-radius: 15px;
+	border: 3px dashed red;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+.part-five {
+	background-color: #ea7abc;
+	border-radius: 10% 30% 50% 70%;
+	padding: 40px;
+	padding-top: 15px;
+	max-width: 400px;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.part-six {
+	background-color: cornflowerblue;
+	text-align: center;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	padding-top: 40px;
+	box-shadow: inset 5px 5px 5px 10px #010101;
+	margin-bottom: 15px;
+}
+.part-seven {
+	background-color: rgba(255, 20, 220, 0.464);
+	color: white;
+	border-radius: 15px 10px 30px 5px;
+	padding: 10px;
+	max-width: 600px;
+	box-shadow: 15px 15px 30px 15px #3d082c;
+	margin-bottom: 40px;
+}
+.part-eight {
+	font-weight: 500;
+	padding-left: 15px;
+	background-color: darkkhaki;
+	border-left: 3px solid darkslategrey;
+	border-radius: 15px 5px;
+	opacity: 0.3;
+	margin-bottom: 20px;
+}
+.part-nine {
+	display: none;
+}
+.part-ten {
+	background-color: darkblue;
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+.part-eleven {
+	background-color: beige;
+	padding-left: 20px;
+	max-width: 500px;
+	border-left: 4px double #000000;
+	margin-bottom: 20px;
+}
+a {
+	display: inline-block;
+	background-color: #2052c6;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	margin-left: 50%;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 4px 4px black;
+}
+a:hover{
+	box-shadow: 3px 3px 2px 2px black;
+}
